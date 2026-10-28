@@ -1,0 +1,8 @@
+# Install CPU PyTorch/torchvision first from https://download.pytorch.org/whl/cpu:
+# torch==2.14.0+cpu torchvision==0.29.0+cpu
+mmengine==0.10.7
+onnx==1.23.2
+onnxruntime==1.31.1
+onnxscript==0.7.2
+ultralytics==8.4.4
+# Optional LiteRT experiments are separate; current phone benchmark uses ONNX only.

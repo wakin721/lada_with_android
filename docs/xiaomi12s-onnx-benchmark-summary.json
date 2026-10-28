@@ -1,0 +1,52 @@
+{
+  "device": "2206123SC",
+  "soc": "SM8475",
+  "runtime": "1.31.1",
+  "backend": "CPUExecutionProvider",
+  "all_models_verified": true,
+  "models": [
+    {
+      "id": "YOLO v4-fast 640",
+      "frames_per_call": 1,
+      "median_total_ms": 94.05080749999999,
+      "median_run_ms": 89.752318,
+      "amortized_total_ms_per_frame": 94.05080749999999,
+      "samples_ms": [
+        88.842448,
+        89.184531,
+        92.075209,
+        89.851771,
+        90.280521,
+        91.705989,
+        92.643698,
+        93.515,
+        93.657656,
+        94.112448,
+        93.989167,
+        94.557917,
+        94.239114,
+        94.777396,
+        94.467448,
+        94.880573,
+        95.610364,
+        96.525104,
+        95.875729,
+        95.729479
+      ]
+    },
+    {
+      "id": "BasicVSR++ generic v1.2 T3 256",
+      "frames_per_call": 3,
+      "median_total_ms": 2003.528593,
+      "median_run_ms": 2001.298957,
+      "amortized_total_ms_per_frame": 667.8428643333333,
+      "samples_ms": [
+        1967.148437,
+        1977.297291,
+        2003.528593,
+        2008.65052,
+        2008.073698
+      ]
+    }
+  ]
+}

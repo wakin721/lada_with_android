@@ -1,0 +1,17 @@
+artifacts/
+.tools/
+.gradle/
+local.properties
+**/build/
+*.iml
+.idea/
+__pycache__/
+*.py[cod]
+
+.kotlin/
+*.apk
+*.onnx
+*.pth
+*.pt
+*.jks
+*.keystore
